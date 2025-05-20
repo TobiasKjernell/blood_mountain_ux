@@ -12,7 +12,7 @@ const Header = () => {
                     <NavLink className={({ isActive }) => isActive ? `${styles.active} ${styles['navItem']}` : "" + styles['navItem']} to="/team">Team</NavLink>
                 </div>
                 <div className={styles.navRight}>
-                    <a href='#' className={styles['navItem--buy']}>Itcho</a>
+                    <a href='#' className={styles['navItem--download']}>Download</a>
                 </div>
             </nav>
         </header>

@@ -7,7 +7,7 @@
 }
 
 .leftSide {
-    font-size: 10rem;
+
     color: var(--gold);
     display: flex;
     flex-direction: column;
@@ -15,6 +15,13 @@
     text-align: center;
     text-transform: uppercase;
     justify-content: space-around;
+
+    @media screen and (max-width: 560px) {
+
+        padding: 0rem;
+        margin-top: 5rem;
+    }
+
 }
 
 .rightSide {
@@ -27,6 +34,17 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20rem;
+    font-size: 10rem;
+
+    @media screen and (max-width: 820px) {
+        font-size: 6rem;
+
+    }
+
+    @media screen and (max-width: 560px) {
+        font-size: 3rem;
+
+    }
 }
 
 .trailerBtn {
@@ -38,21 +56,21 @@
     color: var(--gold);
     text-decoration: none;
 
-    
+
 
 }
 
-    a:link.trailerBtn,
-    a:visited.trailerBtn,
-    a:active.trailerBtn {
-        text-decoration: none;
-        text-transform: uppercase;
+a:link.trailerBtn,
+a:visited.trailerBtn,
+a:active.trailerBtn {
+    text-decoration: none;
+    text-transform: uppercase;
 
-        &:hover {
+    &:hover {
+        border-bottom: 1px solid var(--gold);
+
+        .trailerTitle {
             border-bottom: 1px solid var(--gold);
-            
-            .trailerTitle {
-                border-bottom: 1px solid var(--gold);
-            }
         }
     }
+}
