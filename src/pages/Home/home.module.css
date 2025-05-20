@@ -1,9 +1,9 @@
 .container {
+    display: flex;
     flex: 1;
     background-image: url('../../assets/bloodmaiden.png');
+    background-repeat: none;
     background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
 }
 
 .leftSide {
@@ -14,8 +14,45 @@
     padding: 5rem;
     text-align: center;
     text-transform: uppercase;
+    justify-content: space-around;
 }
 
 .rightSide {
+    display: flex;
+    flex-direction: column;
     font-size: 6rem;
 }
+
+.bloodText {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20rem;
+}
+
+.trailerBtn {
+    border: 1px solid var(--gold);
+    font-size: 2.4rem;
+    padding: 1.8rem 4rem;
+    background-color: #00000093;
+    margin: auto;
+    color: var(--gold);
+    text-decoration: none;
+
+    
+
+}
+
+    a:link.trailerBtn,
+    a:visited.trailerBtn,
+    a:active.trailerBtn {
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            border-bottom: 1px solid var(--gold);
+            
+            .trailerTitle {
+                border-bottom: 1px solid var(--gold);
+            }
+        }
+    }
