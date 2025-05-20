@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex: 1;
-    background-image: url('../../assets/bloodmaiden.png');
+    background-image: url('../../assets/bloodmaiden.webp');
     background-repeat: none;
     background-size: cover;
 }
