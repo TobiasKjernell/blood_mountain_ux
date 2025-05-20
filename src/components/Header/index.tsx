@@ -8,6 +8,7 @@ const Header = () => {
                 <div className={styles.navLeft}>
                     <NavLink className={({ isActive }) => isActive ? `${styles.active} ${styles['navItem']}` : "" + styles['navItem']} to="/">Home</NavLink>
                     <NavLink className={({ isActive }) => isActive ? `${styles.active} ${styles['navItem']}` : "" + styles['navItem']} to="/about">About</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? `${styles.active} ${styles['navItem']}` : "" + styles['navItem']} to="/media">Media</NavLink>
                     <NavLink className={({ isActive }) => isActive ? `${styles.active} ${styles['navItem']}` : "" + styles['navItem']} to="/team">Team</NavLink>
                 </div>
                 <div className={styles.navRight}>

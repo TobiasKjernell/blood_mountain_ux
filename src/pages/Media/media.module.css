@@ -1,0 +1,13 @@
+.container {
+    background-color: #000;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.members {
+    color: var(--gold);
+    font-size: 6rem;
+}
+

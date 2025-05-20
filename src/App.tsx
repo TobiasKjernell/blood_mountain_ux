@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import ErrorPage from './pages/ErrorPage'
 import Team from './pages/Team'
 import About from './pages/About'
+import Media from './pages/Media'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route element={<Home />} path='/' />
           <Route element={<Team />} path='/team' />
           <Route element={<About />} path='/about' />
+          <Route element={<Media />} path='/media' />
         </Route>
       </Routes>
     </>
