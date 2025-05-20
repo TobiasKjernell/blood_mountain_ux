@@ -1,0 +1,21 @@
+.container {
+    flex: 1;
+    background-image: url('../../assets/bloodmaiden.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.leftSide {
+    font-size: 10rem;
+    color: var(--gold);
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rightSide {
+    font-size: 6rem;
+}
